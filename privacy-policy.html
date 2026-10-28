@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mesh - Privacy Policy</title>
-  <meta name="description" content="Privacy Policy ufficiale di Mesh" />
+  <meta name="description" content="Official Privacy Policy of Mesh" />
   <style>
     :root { --bg:#ffffff; --text:#1a1a1a; --muted:#505050; --line:#e6e6e6; --accent:#1b7f55; }
     * { box-sizing: border-box; }
@@ -22,76 +22,103 @@
 <body>
   <main>
     <h1>Privacy Policy - Mesh</h1>
-    <p class="meta">Ultimo aggiornamento: 3 marzo 2026</p>
+    <p class="meta">Last updated: October 28, 2026</p>
 
     <p>
-      Questa informativa descrive come l'app <strong>Mesh</strong> tratta i dati degli utenti.
-      Mesh e' un'app di comunicazione locale peer-to-peer (Bluetooth e Wi-Fi Direct).
+      This policy describes how the <strong>Mesh</strong> app handles users' data.
+      Mesh is a local peer-to-peer communication app that works over Bluetooth and Wi-Fi Direct.
+      It does not require an account and does not need an Internet connection.
     </p>
 
-    <h2>1. Titolare del trattamento</h2>
+    <h2>1. Data controller</h2>
     <p>
-      Titolare: <strong>St3fez</strong><br/>
-      Email privacy: <strong>st3fez@users.noreply.github.com</strong>
-    </p>`r`n<h2>2. Dati trattati dall'app</h2>
+      Controller: <strong>St3fez</strong><br/>
+      Privacy contact: <strong>st3fez@users.noreply.github.com</strong>
+    </p>
+
+    <h2>2. Data the app handles</h2>
     <ul>
-      <li>Nome visualizzato scelto dall'utente.</li>
-      <li>Messaggi e file condivisi localmente tra dispositivi vicini.</li>
-      <li>Preferenze locali (es. utenti bloccati, impostazioni locali).</li>
+      <li><strong>Display name</strong>: the name you choose, or an automatically generated one such as "Anon_1234". You can change it at any time.</li>
+      <li><strong>Node ID</strong>: a random identifier generated the first time you open the app and stored on your device. It is not linked to your name, phone number, account or advertising ID. It is included in the messages you send and in the name your device announces to nearby devices while it looks for peers, and it is used to apply blocks, reports and bans.</li>
+      <li><strong>Messages</strong>: the text messages you send and receive. They are kept in the app's memory while it is running and are not written to storage by the app.</li>
+      <li><strong>Photos and files</strong>: the photos you choose to send, and the photos and files you receive. Received items are saved in the app's own storage on your device.</li>
+      <li><strong>Local settings</strong>: your blocked users, the list of banned users, and whether you have seen the introduction and accepted the Terms of Service.</li>
     </ul>
     <p>
-      In questa versione, i dati restano sul dispositivo e nella rete locale tra peer.
+      Mesh does not collect your contacts, your location, audio recordings, your advertising ID, analytics or crash reports.
     </p>
 
-    <h2>3. Permessi richiesti</h2>
+    <h2>3. Permissions</h2>
     <ul>
-      <li><strong>Bluetooth / Nearby / Wi-Fi Direct</strong>: per creare la rete locale.</li>
-      <li><strong>Microfono</strong>: solo quando l'utente registra un vocale.</li>
-      <li><strong>Notifiche</strong>: per mostrare nuovi messaggi.</li>
-      <li><strong>Posizione</strong>: richiesta dal sistema Android per funzioni di prossimita'/discovery.</li>
+      <li><strong>Bluetooth / Nearby devices / Wi-Fi</strong>: to find nearby devices and connect to them.</li>
+      <li><strong>Location</strong>: on some Android versions the system requires this permission to discover nearby devices. The app does not access, store or send your location.</li>
+      <li><strong>Notifications</strong>: to show new messages and the unread counter.</li>
+      <li><strong>Photos and files</strong>: the app only receives the pictures or files you select yourself in the Android picker.</li>
     </ul>
-
-    <h2>4. Base giuridica</h2>
     <p>
-      Esecuzione del servizio richiesto dall'utente (uso della chat locale) e consenso ai permessi richiesti dal sistema operativo.
+      Mesh does not use the microphone and does not request the Internet permission.
     </p>
 
-    <h2>5. Condivisione con terze parti</h2>
+    <h2>4. How messages travel</h2>
     <p>
-      Mesh non invia i dati a server centrali in questa versione.
-      I dati vengono condivisi solo con i dispositivi destinatari nella rete locale, secondo le azioni dell'utente.
+      Text messages are relayed from device to device across the nearby network, for up to 5 hops.
+      Any device that relays a message can read it, and Mesh does not provide end-to-end encryption between users.
+      Do not send sensitive or confidential information.
+    </p>
+    <p>
+      Photos and files are sent directly to the devices you are connected to. Connections between devices are
+      established through the Nearby Connections service of Google Play services, which is subject to Google's own terms and privacy policy.
     </p>
 
-    <h2>6. Conservazione dei dati</h2>
+    <h2>5. Legal basis</h2>
     <p>
-      I dati locali sono conservati sul dispositivo finche' l'utente non li elimina o disinstalla l'app.
+      Performance of the service you request (using the local chat) and your consent to the permissions requested by the operating system.
     </p>
 
-    <h2>7. Diritti dell'utente</h2>
+    <h2>6. Sharing with third parties</h2>
     <p>
-      L'utente puo' cancellare i dati locali direttamente in-app (quando previsto), nelle impostazioni di Android,
-      o disinstallando l'app.
+      Mesh has no servers and does not send data to any central server. It does not show ads, does not use analytics and does not sell data.
+      Your messages, photos and files are shared only with other devices on the local network, as a result of your actions.
+    </p>
+    <p>
+      When you report a user, the report (the reported user's node ID and yours) is shared with other devices on the network.
+      When a user has been reported by 5 different devices, a ban is shared across the network and the banned user is disconnected.
     </p>
 
-    <h2>8. Minori e uso consentito</h2>
+    <h2>7. Data retention</h2>
     <p>
-      L'utente e' responsabile dei contenuti inviati tramite l'app.
-      Non e' consentito utilizzare Mesh per attivita' illegali o violazioni dei diritti di terzi.
+      Your name, node ID and local settings stay on your device until you clear the app's data or uninstall the app.
+      Messages exist only while the app is running, and you can remove them at any time with "Clear and disconnect".
+      Received photos and files stay in the app's storage until you uninstall the app or clear its storage.
+    </p>
+    <p>
+      Because messages are relayed to other people's devices, copies may exist on those devices. We cannot access or delete them.
     </p>
 
-    <h2>9. Modifiche a questa informativa</h2>
+    <h2>8. Your rights</h2>
     <p>
-      Questa Privacy Policy puo' essere aggiornata periodicamente. Le modifiche saranno pubblicate in questa pagina.
+      Mesh has no account and no server, so we do not hold your data. You can delete local data from the app ("Clear and disconnect"),
+      from Android settings, or by uninstalling the app. To exercise any other right, contact us using the address below.
     </p>
 
-    <h2>10. Contatti</h2>
+    <h2>9. Acceptable use</h2>
     <p>
-      Per richieste privacy: <strong>st3fez@users.noreply.github.com</strong>
+      You are responsible for the content you send through the app.
+      Using Mesh for illegal activities, defamation or violations of the rights of others is not allowed.
+      The app provides tools to block and report users, and a filter that blocks strongly offensive language.
     </p>
 
-    <p><a href="./index.html">Torna alla pagina legale</a></p>
+    <h2>10. Changes to this policy</h2>
+    <p>
+      This Privacy Policy may be updated from time to time. Changes will be published on this page.
+    </p>
+
+    <h2>11. Contact</h2>
+    <p>
+      For privacy requests: <strong>st3fez@users.noreply.github.com</strong>
+    </p>
+
+    <p><a href="./index.html">Back to the legal page</a></p>
   </main>
 </body>
 </html>
-
-

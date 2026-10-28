@@ -1,4 +1,3 @@
 # Mesh Privacy Policy
 
-Static site per Privacy Policy di Mesh.
-
+Static site for the Mesh Privacy Policy.
